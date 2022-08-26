@@ -89,85 +89,65 @@ public:
 int main()
 {
 
-    Expr obj1;
+      Expr obj1;
     ofstream fich("tmp.txt");
     obj1.cantidad = 10000;
     obj1.tamanho = 10;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 10000;
     obj1.tamanho = 20;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 10000;
     obj1.tamanho = 30;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 10000;
     obj1.tamanho = 40;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 10000;
     obj1.tamanho = 50;
     cout << obj1.conducir() << endl;
 
     obj1.cantidad = 20000;
     obj1.tamanho = 10;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 20000;
     obj1.tamanho = 20;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 20000;
     obj1.tamanho = 30;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 20000;
     obj1.tamanho = 40;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 20000;
     obj1.tamanho = 50;
     cout << obj1.conducir() << endl;
 
     obj1.cantidad = 30000;
     obj1.tamanho = 10;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 30000;
     obj1.tamanho = 20;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 30000;
     obj1.tamanho = 30;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 30000;
     obj1.tamanho = 40;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 30000;
     obj1.tamanho = 50;
     cout << obj1.conducir() << endl;
 
     obj1.cantidad = 40000;
     obj1.tamanho = 10;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 40000;
     obj1.tamanho = 20;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 40000;
     obj1.tamanho = 30;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 40000;
     obj1.tamanho = 40;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 40000;
     obj1.tamanho = 50;
     cout << obj1.conducir() << endl;
 
     obj1.cantidad = 50000;
     obj1.tamanho = 10;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 50000;
     obj1.tamanho = 20;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 50000;
     obj1.tamanho = 30;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 50000;
     obj1.tamanho = 40;
     cout << obj1.conducir() << endl;
-    obj1.cantidad = 50000;
     obj1.tamanho = 50;
     cout << obj1.conducir() << endl;
 
